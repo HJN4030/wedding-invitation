@@ -21,31 +21,31 @@ dayjs.locale("ko")
 
 export { dayjs }
 
-export const WEDDING_DATE = dayjs.tz("2024-08-24 13:00", "Asia/Seoul")
+export const WEDDING_DATE = dayjs.tz("2025-12-27 13:30", "Asia/Seoul")
 export const HOLIDAYS = [15]
 
-export const LOCATION = "서울대학교 연구공원 웨딩홀"
-export const LOCATION_ADDRESS = "서울시 관악구 관악로 1, 연구공원 본관 1층"
+export const LOCATION = "제이앤제이아트컨벤션"
+export const LOCATION_ADDRESS = "경기 평택시 비전5로 20-46"
 
 export const SHARE_ADDRESS = LOCATION
 export const SHARE_ADDRESS_TITLE = LOCATION
 
-export const WEDDING_HALL_POSITION = [126.9594982, 37.4657134]
+export const WEDDING_HALL_POSITION = [127.115360898377, 37.0004338988169]
 
 export const NMAP_PLACE_ID = 13321741
-export const KMAP_PLACE_ID = 8634826
+export const KMAP_PLACE_ID = 8634826 //@@@@ 나중에 고치기
 
-export const BRIDE_FULLNAME = "정지원"
-export const BRIDE_FIRSTNAME = "지원"
+export const BRIDE_FULLNAME = "남현정"
+export const BRIDE_FIRSTNAME = "현정"
 export const BRIDE_TITLE = "장녀"
-export const BRIDE_FATHER = "정상원"
-export const BRIDE_MOTHER = "박윤정"
+export const BRIDE_FATHER = "남동호"
+export const BRIDE_MOTHER = "유은예"
 export const BRIDE_INFO = [
   {
     relation: "신부",
     name: BRIDE_FULLNAME,
-    phone: "010-0000-0000",
-    account: "우리은행 0000000000000",
+    phone: "010-5466-4031",
+    account: "우리은행 1002-151-848618",
   },
   {
     relation: "신부 아버지",
@@ -61,16 +61,16 @@ export const BRIDE_INFO = [
   },
 ]
 
-export const GROOM_FULLNAME = "남주호"
-export const GROOM_FIRSTNAME = "주호"
-export const GROOM_TITLE = "차남"
-export const GROOM_FATHER = "남현태"
-export const GROOM_MOTHER = "김현영"
+export const GROOM_FULLNAME = "조민수"
+export const GROOM_FIRSTNAME = "민수"
+export const GROOM_TITLE = "장남"
+export const GROOM_FATHER = "조병석"
+export const GROOM_MOTHER = "박은숙"
 export const GROOM_INFO = [
   {
     relation: "신랑",
     name: GROOM_FULLNAME,
-    phone: "010-0000-0000",
+    phone: "010-8375-8969",
     account: "하나은행 00000000000000",
   },
   {
